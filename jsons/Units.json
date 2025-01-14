@@ -25,7 +25,7 @@
 		"requiredTech": "Combined Arms",
 		"requiredResource": "Oil",
 		"upgradesTo": "Modern Armor",
-		"promotions": ["Quick Study", "Blitz"],
+		"promotions": ["Quick Study", "Blitz", "[Hussar] ability"],
 		"uniques": ["Can move after attacking","No defensive terrain bonus"],
 		"attackSound": "tankshot"
 		//German unique unit, stronger than Tank.

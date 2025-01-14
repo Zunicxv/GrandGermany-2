@@ -15,6 +15,23 @@
 		"attackSound": "arrow"
 	},
 	{
+		"name": "Ballista",
+		"unitType": "Siege",
+		"replaces": "Catapult",
+		"uniqueTo": "Germany",
+		"movement": 2,
+		"strength": 10,
+		"rangedStrength": 10,
+		"cost": 75,
+		"requiredTech": "Mathematics",
+		"upgradesTo": "Trebuchet",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus",
+			"Must set up to ranged attack"],
+		"promotions": ["Indirect Fire", "Extended Range", "Quick Study"],
+		"hurryCostModifier": 20,
+		"attackSound": "throw"
+	},
+	{
 		"name": "Hussar",
 		"unitType": "Mounted",
 		"replaces": "Cavalry",

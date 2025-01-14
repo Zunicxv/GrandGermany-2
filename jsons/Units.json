@@ -139,17 +139,18 @@
 		"attackSound": "shot"
 	},
 	{
-		"name": "Hoplite",
+		"name": "Persian Immortal",
 		"unitType": "Sword",
 		"replaces": "Spearman",
 		"uniqueTo": "Germany",
 		"movement": 2,
-		"strength": 15,
+		"strength": 12,
 		"cost": 56,
 		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"promotions": ["Drill I", "Quick Study"],
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"promotions":["[Persian Immortal] ability"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -161,7 +162,7 @@
 		"strength": 16,
 		"cost": 45,
 		"requiredTech": "Civil Service",
-		"promotions": ["Drill I", "Quick Study"],
+		"promotions": ["Drill I", ["[Persian Immortal] ability", "Quick Study"],
 		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Can move immediately once bought" ],
 		"upgradesTo": "Lancer",
 		"attackSound": "metalhit"

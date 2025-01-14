@@ -1,0 +1,151 @@
+[
+	{
+		"name": "Legion",
+		"unitType": "Sword",
+		"uniqueTo": "Rome",
+		"replaces": "Swordsman",
+		"movement": 2,
+		"strength": 17,
+		"cost": 90,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "Iron",
+		"uniques": ["Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles"],
+	 	"promotions": ["Cover I", "March"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Ballista",
+		"unitType": "Siege",
+		"replaces": "Catapult",
+		"uniqueTo": "Rome",
+		"movement": 2,
+		"strength": 8,
+		"rangedStrength": 10,
+		"cost": 75,
+		"requiredTech": "Mathematics",
+		"obsoleteTech": "Physics",
+		"upgradesTo": "Trebuchet",
+		"uniques": ["[+150]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "[-1] Sight"],
+		"hurryCostModifier": 20,
+		"attackSound": "crossbow"
+	},
+	{
+		"name": "Landsknecht",
+		"unitType": "Sword",
+		"replaces": "Pikeman",
+		"uniqueTo": "Germany",
+		"movement": 2,
+		"strength": 16,
+		"cost": 45,
+		"requiredTech": "Civil Service",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Can move immediately once bought" ],
+		"upgradesTo": "Lancer",
+		"obsoleteTech": "Metallurgy",
+		"attackSound": "metalhit"
+		//"Requires [Mercenary Army]" in BNW
+	},
+	{
+		"name": "Panzer",
+		"unitType": "Armored",
+		"uniqueTo": "Germany",
+		"replaces": "Tank",
+		"movement": 6,
+		"strength": 80,
+		"cost": 375,
+		"requiredTech": "Combined Arms",
+		"requiredResource": "Oil",
+		"upgradesTo": "Modern Armor",
+		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"attackSound": "tankshot"
+		//German unique unit, stronger than Tank
+	},
+	{
+		"name": "Quinquereme",
+		"unitType": "Melee Water",
+		"uniqueTo": "Carthage",
+		"replaces": "Trireme",
+		"movement": 4,
+		"strength": 13,
+		"cost": 45,
+		"requiredTech": "Sailing",
+		"uniques": ["Cannot enter ocean tiles"],
+		"upgradesTo": "Caravel",
+		"obsoleteTech": "Astronomy",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Great Archaeologist",
+		"unitType": "Civilian",
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [10] Influence",
+			"Can instantly construct a [Ancient ruins] improvement <[3] times> <after which this unit is consumed>","Is part of Great Person group [Better Ruins]", "Unbuildable", "Great Person - [History]"],
+		"movement": 2
+	},
+	{
+		"name": "Scout",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 5,
+		"cost": 25,
+		"obsoleteTech": "Scientific Theory",
+		"uniques": ["May upgrade to [Archer] through ruins-like effects"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Wayfarer",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 20,
+		"rangedStrength": 20,
+		"range": 1,
+		"cost": 25,
+		"uniques": [
+			"Unbuildable",
+			"Invisible to non-adjacent units",
+			"[+1] Sight",
+			"Can upgrade to [Gatling Gun]"
+		],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Suicider",
+		"unitType": "Armored",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 32,
+		"rangedStrength": 32,
+		"range": 1,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"uniques": [
+			"[+400]% Strength <vs cities> <when attacking>",
+			"Can only attack [City] units",
+			"Self-destructs when attacking",
+			"Earn [50]% of the damage done to [City] units as [Gold]"
+		],
+		"attackSound": "shot"
+	},
+	{
+			"name": "Dirt Canal Digger",
+		"unitType": "Civilian",
+		"movement": 2,
+		"requiredTech": "Physics",
+		"obsoleteTech": "Steam Power",
+		"uniques": [
+			"Can instantly construct a [Dirt Canal Construction Site] improvement <once> <in tiles without [Hill]> <after which this unit is consumed>"],
+		"cost": 170
+	},	
+	{
+		"name": "Concrete Canal Digger",
+		"unitType": "Civilian",
+		"movement": 2,
+		"requiredTech": "Steam Power",
+		"uniques": [
+			"Can instantly construct a [Concrete Canal Construction Site] improvement <once> <after which this unit is consumed>"],
+		"cost": 280
+}
+]

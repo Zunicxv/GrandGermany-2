@@ -31,6 +31,22 @@
 		"attackSound": "throw"
 	},
 	{
+		"name": "Cataphract",
+		"unitType": "Mounted",
+		"uniqueTo": "Germany",
+		"replaces": "Horseman",
+		"movement": 3,
+		"strength": 15,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking", "[-25]% Strength <vs cities> <when attacking>"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	{
 		"name": "Hussar",
 		"unitType": "Mounted",
 		"replaces": "Cavalry",
@@ -42,7 +58,7 @@
 		"obsoleteTech": "Combustion",
 		"requiredResource": "Horses",
 		"upgradesTo": "Landship",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-25]% Strength <vs cities> <when attacking>",
 			"[+1] Sight"],
 		"promotions": ["[Hussar] ability"],
 		"attackSound": "horse"

@@ -103,7 +103,6 @@
 		"cost": 320,
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
-		"obsoleteTech": "Plastics",
 		"promotions": ["Drill I", "Amphibious", "Cover I", "March", "Woodsman", "Quick Study"],
 		"attackSound": "shot"
 	},

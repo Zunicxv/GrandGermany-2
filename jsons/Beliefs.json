@@ -143,7 +143,7 @@
     {
         "name": "Guruship",
         "type": "Follower",
-        "uniques": ["[+2 Production] [in cities following this religion] <in cities with at least [1] [Specialists]>"]
+        "uniques": ["[+4 Production] [in cities following this religion] <in cities with at least [1] [Specialists]>"]
     },
     {
         "name": "Holy Warriors",
@@ -236,7 +236,8 @@
         "name": "Tithe",
         "type": "Founder",
         "uniques": ["[+3 Gold] from every [4] global followers [in all cities]",
-                    "[+3 Culture] from every [4] global followers [in foreign cities]"]
+                    "[+3 Culture] from every [4] global followers [in foreign cities]",
+                    "[+100 Gold] when a city adopts this religion for the first time <(modified by game speed)>"]
     },
     {
         "name": "World Church",
@@ -250,7 +251,9 @@
         "name": "Defender of the Faith",
         "type": "Enhancer",
         "uniques": ["[+20]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
-                    "Religion naturally spreads to cities [+4] tiles away"]
+                    "Religion naturally spreads to cities [+7] tiles away",
+                    "[+25]% Spread Religion Strength <for [Great Prophet] units>",
+                    "[-25]% Faith cost of generating Great Prophet equivalents"]
         // ToDo: Should only be friendly territory of cities that follow this religion
     },
     {

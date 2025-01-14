@@ -220,6 +220,21 @@
 		"attackSound": "cannon"
 	},
 	{
+		"name": "Battleship",
+		"unitType": "Ranged Water",
+		"movement": 5,
+		"strength": 55,
+		"rangedStrength": 55,
+		"range": 3,
+		"cost": 375,
+		"requiredResource": "Oil",
+		"requiredTech": "Electronics",
+		"upgradesTo": "Missile Cruiser",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "shipguns"
+	},
+	{
 		"name": "Missile Cruiser",
 		"unitType": "Ranged Water",
 		"movement": 7,

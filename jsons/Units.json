@@ -123,7 +123,7 @@
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles"],
-		"promotions": ["Drill I", "Amphibious", "Cover I", "March", "Woodsman", "Quick Study"],
+		"promotions": ["Drill I", "Amphibious", "Cover I", "March", "Woodsman", "[Persian Immortal] ability", "Quick Study"],
 		"attackSound": "shot"
 	},
 	{

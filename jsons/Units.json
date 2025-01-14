@@ -203,7 +203,7 @@
 		"uniques": ["Cannot enter ocean tiles", "[+50]% Strength <vs [Water] units>"],
 		"obsoleteTech": "Astronomy",
 		"upgradesTo": "Galleass",
-		"promotions": ["Supply", "Quick Study"],
+		"promotions": ["Indirect Fire", "Supply", "Quick Study"],
 		"attackSound": "arrow"
 	},
 	{

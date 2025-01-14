@@ -76,6 +76,7 @@
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Metallurgy",
 		"requiredResource": "Iron",
+		"uniques": ["Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles"],
 		"promotions": ["Drill I", "Amphibious", "Cover I", "March", "Woodsman", "Quick Study"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
@@ -92,7 +93,7 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles"],
 		"promotions": ["Drill I", "Amphibious", "Cover I", "March", "Woodsman", "Quick Study"],
 		"attackSound": "shot"
 	},
@@ -107,6 +108,7 @@
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles"],
 		"promotions": ["Drill I", "Amphibious", "Cover I", "March", "Woodsman", "Quick Study"],
 		"attackSound": "shot"
 	},
@@ -120,6 +122,7 @@
 		"cost": 320,
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles"],
 		"promotions": ["Drill I", "Amphibious", "Cover I", "March", "Woodsman", "Quick Study"],
 		"attackSound": "shot"
 	},

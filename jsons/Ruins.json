@@ -2,7 +2,7 @@
     {
         "name": "discover cultural artifacts",
         "notification": "We have discovered cultural artifacts in the ruins! (+150 culture)",
-        "uniques": ["Gain [150] [Culture]"],
+        "uniques": ["Gain [300] [Culture]"],
         "color": "#cf8ff7"
     },
     {
@@ -31,7 +31,7 @@
     {
         "name": "a stash of gold",
         "notification": "", // trigger notification only
-        "uniques": ["Gain [200]-[600] [Gold]"],
+        "uniques": ["Gain [500]-[1000] [Gold]"],
         "color": "#ffeb7f"
     },
     {
@@ -58,7 +58,7 @@
     {
         "name": "discover holy symbols",
         "notification": "We have found holy symbols in the ruins, giving us a deeper understanding of religion! (+[faithAmount] Faith)",
-        "uniques": ["Only available <when religion is enabled>", "Gain [50]-[100] [Faith]", "Gain enough Faith for a Pantheon", "Only available <before founding a Pantheon>", "Only available <after turn number [20]>"],
+        "uniques": ["Only available <when religion is enabled>", "Gain [100]-[200] [Faith]", "Gain enough Faith for a Pantheon", "Only available <before founding a Pantheon>", "Only available <after turn number [20]>"],
 		"color": "#CDDDF4"
     },
     {

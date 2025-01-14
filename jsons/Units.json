@@ -9,7 +9,6 @@
 		"requiredTech": "Agriculture",
 		"replaces": "Archer",
 		"uniqueTo": "Germany",
-		"obsoleteTech": "Construction",
 		"promotions": ["Extended Range", "Quick Study"],
 		"upgradesTo": "Composite Bowman",
 		"attackSound": "arrow"
